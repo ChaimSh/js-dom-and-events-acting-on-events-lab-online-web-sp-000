@@ -19,5 +19,5 @@ function addNewElementAsLi() {
 
 function addNewLiOnClick() {
   let employeeName = addNewElementAsLi()
-  input.valkue = " "
+  input.value = " "
 }
