@@ -21,3 +21,8 @@ function addNewLiOnClick() {
   let employeeName = addNewElementAsLi()
   input.value = ""
 }
+function clearEmployeeListOnLinkClick() {
+  document.querySelector("Clear employee list").addEventListener('click', function(){
+     document.querySelector('.employee-list').value = ""
+  })
+}
