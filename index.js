@@ -22,7 +22,7 @@ function addNewLiOnClick() {
   input.value = ""
 }
 function clearEmployeeListOnLinkClick() {
-  
+
   document.querySelector("Clear employee list").addEventListener('click', function(event){
      document.querySelector('.employee-list').innerHTML = ""
   })
